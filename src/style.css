@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Gwendolyn:wght@700&display=swap");
+
+body {
+  margin: auto;
+  font-family: Work Sans;
+}
+
+.app {
+  overflow-x: hidden;
+  text-align: center;
+  background-color: #d8d1ca;
+  color: #242229;
+}
+
+.nav-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 10px;
+  padding: 10px;
+}
+.price-list_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+li {
+  list-style-type: none;
+}
+
+ul li:last-child {
+  padding-left: 0.5em;
+}
+
+.lg_braids {
+  font-family: "Gwendolyn", cursive;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.home-image {
+  width: 500px;
+  height: 300px;
+  margin-top: 10px;
+  object-fit: cover;
+}
+
+
+.about-text{
+  background: #d9d9d9;
+   margin : 20px; 
+  border-radius: 50px;
+  padding: 10px; 
+}
+.headings {
+  font-family: Merienda One;
+  text-transform: uppercase;
+}
+
+.blue {
+  background-color: #242229;
+  color: #ffffff;
+}
+
+.price-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+ align-items: center;
+  padding-right: 30px;
+}
+
+.photo {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.border {
+  margin: 0 30px;
+  padding: 1em;
+
+}
+hr {
+  margin: 0;
+}
+.grid>ul{
+  padding-right: 40px;
+}
+.type{
+  margin: 40px;
+}
+
+.contact{
+  padding: 30px 0;
+}
+.price-list__length{
+  margin-left:-40px;
+  text-align: left;
+}
+.price-list_{
+  margin-left:-5px;
+}
+@media screen and (min-width: 900px){
+  .nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+  }
+  .nav-items{
+    padding-bottom: 20px;
+    margin: 30px;
+  }
+  .price-list {
+   grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .home-image{
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+  }
+  .img-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+  .about-text{
+    
+    margin : 100px 20px;
+   
+  }
+  
+}
